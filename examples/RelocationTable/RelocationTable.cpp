@@ -1,5 +1,7 @@
 #include <cstdio>
-#include <ELFIO.h>
+#include <elfio/elfio.hpp>
+
+using namespace ELFIO;
 
 int main( int, char* argv[] )
 {

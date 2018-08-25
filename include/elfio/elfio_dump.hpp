@@ -268,7 +268,7 @@ static struct machine_table_t {
     { EM_L1OM         , "Intel L1OM"                                                              },
     { EM_INTEL181     , "Reserved by Intel"                                                       },
     { EM_INTEL182     , "Reserved by Intel"                                                       },
-    { EM_res183       , "Reserved by ARM"                                                         },
+    { EM_AARCH64      , "AArch64"                                                                 },
     { EM_res184       , "Reserved by ARM"                                                         },
     { EM_AVR32        , "Atmel Corporation 32-bit microprocessor family"                          },
     { EM_STM8         , "STMicroeletronics STM8 8-bit microcontroller"                            },

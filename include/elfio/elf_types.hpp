@@ -267,7 +267,7 @@ typedef uint64_t Elf64_Off;
 #define EM_L1OM          180 // Intel L1OM
 #define EM_INTEL181      181 // Reserved by Intel
 #define EM_INTEL182      182 // Reserved by Intel
-#define EM_res183        183 // Reserved by ARM
+#define EM_AARCH64       183 // AArch64
 #define EM_res184        184 // Reserved by ARM
 #define EM_AVR32         185 // Atmel Corporation 32-bit microprocessor family
 #define EM_STM8          186 // STMicroeletronics STM8 8-bit microcontroller

@@ -1,0 +1,37 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "ELFIO Test build",
+            "command": "make",
+            "args": [
+                "INCLUDES=-I..",
+                "CXXFLAGS='-g -O0'"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}/ELFIOTest",
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "ELF Dump Build",
+            "command": "make",
+            "args": [
+                "INCLUDES=-I..",
+                "CXXFLAGS='-g -O0'"
+            ],
+            "options": {
+                "cwd": "${workspaceRoot}",
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}

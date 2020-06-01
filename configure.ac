@@ -1,4 +1,4 @@
-AC_INIT([ELFIO], [3.2])
+AC_INIT([ELFIO], [3.5])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 AC_PROG_CXX
 AC_CONFIG_FILES([
@@ -9,6 +9,5 @@ AC_CONFIG_FILES([
            examples/writer/Makefile
            examples/anonymizer/Makefile
            examples/write_obj/Makefile
-           ELFIOTest/Makefile
 ])
 AC_OUTPUT
